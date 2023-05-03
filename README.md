@@ -8,7 +8,7 @@ This project was built using HTML, CSS, and JavaScript.
 
 ## How to Use
 
-1. Clone the repository or download the code files.
+1. Clone the repository or download the code files or visit the preview page.
 2. Open the `index.html` file in a web browser.
 3. Use the range sliders to adjust the values for red, green, and blue.
 4. The background color of the page will update in real-time as you adjust the sliders.

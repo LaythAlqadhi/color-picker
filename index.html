@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+    <title>Color Picker</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="index.css" rel="stylesheet" type="text/css"/>
@@ -15,8 +15,8 @@
           <input type="range" oninput="colors()" min="0" max="255" class="blue">
         </form>
       </div>
-      <span id="rgb">rgb(128,128,128)</span>     
-      <button class="btn" onclick="copyContent()">Copy</button>
+      <span id="rgb" class="btn" onclick="copyContent()">rgb(128,128,128)</span>
+      <p>Copy the RGB color by clicking on the result.</p>
     </div>
     <script src="index.js"></script>
   </body>

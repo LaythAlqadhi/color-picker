@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="index.css" rel="stylesheet" type="text/css"/>
+</head>
+  <body>
+    <div class="container">
+      <div class="rangeSliders">
+        <form>
+          <input type="range" oninput="colors()" min="0" max="255" class="red">
+          <input type="range" oninput="colors()" min="0" max="255" class="green">
+          <input type="range" oninput="colors()" min="0" max="255" class="blue">
+        </form>
+      </div>
+      <span>RGB(128,128,128)</span>      
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

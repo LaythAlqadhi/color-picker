@@ -5,13 +5,13 @@ const updateColors = () => {
   const text = document.querySelector("#rgb");
   const bgColor = `rgb(${red.value},${green.value},${blue.value})`;
   document.body.style.background = bgColor;
-  text.innerHTML = `rgb(${red.value},${green.value},${blue.value})`;
+  text.textContent = `rgb(${red.value},${green.value},${blue.value})`;
 };
 
 const copyContent = async () => {
   const text = document.querySelector("#rgb");
   try {
-    await navigator.clipboard.writeText(text.innerText);
+    await navigator.clipboard.writeText(text.textContent);
     console.log("Content copied to clipboard");
   } catch (err) {
     console.error("Failed to copy: ", err);

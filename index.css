@@ -38,8 +38,8 @@ input {
   height: 15px;
   border-radius: 5px;
   background: #d3d3d3;
-  opacity: 0.7;
-  transition: opacity 0.2s;
+  opacity: .7;
+  transition: opacity .2s;
   outline: none;
 }
 
@@ -61,8 +61,20 @@ input::-moz-range-thumb {
   width: 25px;
   height: 25px;
   border-radius: 50%;
-  background: #04aa6d;
+  background: #fff;
   cursor: pointer;
+}
+
+.red{
+  background: #ff8080;
+}
+
+.green{
+  background: #80ff80;
+}
+
+.blue{
+  background: #8080ff;
 }
 
 span {
@@ -72,7 +84,7 @@ span {
   margin-right: 2px;
   border-radius: 5px;
   background: #d3d3d3;
-  opacity: 0.7;
+  opacity: .7;
   color: black;
   font-size: 1rem;
   transition: .2s;
@@ -86,11 +98,10 @@ span:active {
   transform: scale(0.95);
 }
 
-
 p {
   margin-top: 5px;
-  font-size: 0.8rem;
+  font-size: .8rem;
   font-weight: 100;
-  opacity: 0.7;
+  opacity: .7;
   text-align: center;
 }
